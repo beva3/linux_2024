@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "config.h"
 
 /**
  * TODO : creat a file c source
@@ -12,7 +12,12 @@
 int main(){
 
     printf("Content-Type: text/html;\n\n");
+    printf("<html><body>");
+
     printf("<h1>Hello world</h1>");
+    printf("<h1>Linux 2024</h1>");
+
+    printf("</body></html>");
 
     return 0;
 }
