@@ -1,4 +1,5 @@
 #include "config.h"
+#include "user.h"
 
 /**
  * TODO : creat a file c source
@@ -16,6 +17,8 @@ int main(){
 
     printf("<h1>Hello world</h1>");
     printf("<h1>Linux 2024</h1>");
+
+    print_user();
 
     printf("</body></html>");
 
