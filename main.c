@@ -13,14 +13,16 @@
 int main(){
 
     printf("Content-Type: text/html;\n\n");
-    printf("<html><body>");
+    printf("<html>");
+        printf("<body>");
 
-    printf("<h1>Hello world</h1>");
-    printf("<h1>Linux 2024</h1>");
+        printf("<h1>Hello world</h1>");
+        printf("<h1>Linux 2024</h1><hr>");
 
-    print_user();
+        print_user(tab_user());
 
-    printf("</body></html>");
+        printf("</body>");
+    printf("</html>");
 
     return 0;
 }
